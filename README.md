@@ -1,0 +1,2 @@
+# Bettermail
+Internes EMail Versendungsprogramm
