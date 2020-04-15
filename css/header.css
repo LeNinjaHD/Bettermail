@@ -1,0 +1,120 @@
+body {
+  padding-top: 70px;
+}
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+	.jumbotron h1,h2,h3,h4,h5,h6,p{
+      color: #000000;
+    }
+    .container {
+      color: #000000;
+    }
+	h1,p,h2,b {
+		color: #000000;
+	}
+}
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: white;
+    }
+    .jumbotron {
+      background-color: #323232;
+      color: white;
+    }
+    .container {
+      color: white;
+    }
+    .navbar {
+      background-color: #323232;
+      color: white;
+    }
+    .nav .navbar-nav {
+      background-color: #323232;
+      color: white;
+    }
+    .navbar-default .navbar-nav > li > a {
+      color: #c2c2c2;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #e3e3e3;
+      background-color: #858585
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+      color: #8e8e8e;
+      background-color: #e7e7e7;
+    }
+    a:hover {
+      background-color: #505050;
+      color: white;
+    }
+    .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #bbbbbb;
+  white-space: nowrap;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #000000;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #252525;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #bdbdbd;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #c1c1c1;
+  background-color: #2b2b2b;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #000000;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+}
